@@ -6,8 +6,8 @@ orbs:
 jobs:
   build:
     executor:
-      name: win/default
-      size: "medium"
+      name: win/server-2022
+      #size: "medium"
 
     steps:
       - checkout  
